@@ -16,4 +16,13 @@ public class ExampleService {
 	private void writeToDatabase(String encryptedPassword) {
 		// Speichert das verschlüsselte Passwort in der Datenbank
 	}
+
+	public String passwordEncryption(String password) {
+		return password; // Unsichere Verschlüsselungsmethode
+	}
+
+	// Annahme: Hier wird das Passwort direkt aus der Datenbank abgerufen
+	public String getPasswordFromDatabase() {
+		return "hashedPassword"; // Beispielhafter Rückgabewert
+	}
 }
