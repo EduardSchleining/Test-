@@ -1,0 +1,52 @@
+  .icon-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none; 
+        color: #333;
+        transition: background-color 0.3s, color 0.3s; 
+    }
+
+  
+  .icon-text:hover {
+        background-color: lightgrey; 
+        color: black; 
+        }
+        
+  .icons {
+    width: 50px;
+    height: 50px;
+    }
+    
+  .favorites {
+     position: absolute;
+        top: 15px;
+        right: 25px;
+        width: 20px; /* Set the size of the star icon as needed */
+        height: 20px; /* Set the size of the star icon as needed */
+        cursor: pointer; /* Change the cursor to indicate it's clickable */
+    }
+    
+   .container {
+        position: relative;
+    }
+
+
+  .action-button {
+      display: inline-block;
+      padding: 10px 10px;
+      margin-right: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 12px;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  .action-button:hover {
+      background-color: #0056b3;
+  }
